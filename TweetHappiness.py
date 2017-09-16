@@ -48,7 +48,7 @@ while(True):
     except:
         print('Dup')
 # Set timer to run every minute
-    time.sleep(20)
+    time.sleep(60)
 
 #     tweet_id = api.user_timeline(count = 1)[0]['id']
 # # print(tweet_id)
