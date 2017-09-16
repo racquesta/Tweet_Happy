@@ -37,7 +37,7 @@ def tweety_happy(tweet):
 # Tweet a random quote
 
 rand_tweet = happy_quotes[random.randrange(0, len(happy_quotes)-1)]
-
+print(rand_tweet)
 while(True):
     try:
         tweety_happy(rand_tweet)
